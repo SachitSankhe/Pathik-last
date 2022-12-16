@@ -104,12 +104,8 @@ BASE_DIR = "D:\pathik-backend\server"
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'frgfyenc',
-        'USER': 'frgfyenc',
-        'PASSWORD': 'cRZy1WjzQnDnV-rbYj9f1o9jzXRIjf6h',
-        'HOST': 'satao.db.elephantsql.com',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3'
     }
 }
 
